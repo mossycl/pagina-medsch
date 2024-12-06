@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSchedule</title>
+    {% load static %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MedSchedule</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#que-es">¿Qué es MedSchedule?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#como">¿Cómo Funciona?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#descarga">Descarga</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid wrapper d-flex flex-column">
+        <div id="inicio" class="row row1">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center">
+                hola
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center">
+                <div class="descripcion-txt">
+                    <h3>MedSchedule</h3>
+                    <h5>La aplicación que te permite gestionar consultas médicas de manera fácil y rápida desde tu celular.</h5>
+                </div>
+            </div>
+        </div>
+        <div id="que-es" class="row row2">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center">
+                <div class="descripcion-txt">
+                    <h3>¿Qué es MedSchedule?</h3>
+                    <h5>MedSchedule es un sistema de gestión de consultas médicas que permite a sus pacientes agendar horas de manera fácil desde su teléfono a cualquier hora del día. Permite también organizar los horarios de cada médico y el tamaño de sus bloques horarios de forma cómoda y revisar los pacientes del día.</h5>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center">
+                
+            </div>
+        </div>
+        <div id="como" class="row row3">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center">
+                
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center">
+                <div id="txtCarousel" class="carousel slide carousel-h" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="desc-carousel d-flex flex-column justify-content-center">
+                                <h3>Vista Médico</h3>
+                                <p>El Médico puede crear agendas horarias para sus consultas, definiendo sus horas de inicio y término, estableciendo el tiempo de sus bloques y los días laborales. Además, puede administrar a sus pacientes agendados.</p>    
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="desc-carousel d-flex flex-column justify-content-center">
+                                <h3>Vista Paciente</h3>
+                                <p>El Paciente crea su cuenta de usuario y puede buscar a su médico por nombre o según la especialidad que requiera. Verá la lista de los profesionales y elegir los horarios que estos tengan disponibles. Puede seguir sus consultas agendadas y cancelarlas si es que tiene algún inconveniente.</p>
+                            </div>
+                        </div>
+                         <div class="carousel-item">
+                            <div class="desc-carousel d-flex flex-column justify-content-center">
+                                <h3>Vista Administrador</h3>
+                                <p>El Administrador es encargado de revisar las cuentas de usuario, crear nuevas cuentas de Médico y administrar la Base de Datos según las necesidades de la clinica.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev w-auto" type="button" data-bs-target="#txtCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next w-auto" type="button" data-bs-target="#txtCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="descarga" class="row row4">
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
